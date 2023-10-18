@@ -4,7 +4,7 @@ const characterData = () => {
 
     characters.innerHTML = '';
 //fetch the candidates info from API and display it
-let baseURL = 'https://my-json-server.typicode.com/martinwakaba/code-challenge-2/characters'
+let baseURL = 'https://my-json-server.typicode.com/masud-abdi/code-challenge-2/characters'
     fetch(baseURL)
     .then(response => response.json())//translating into something thats readable
 
