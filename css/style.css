@@ -1,6 +1,9 @@
 html {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+body{
+  background-color: brown;
+}
 
 html, body {
   margin: 0;
